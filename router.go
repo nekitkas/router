@@ -16,7 +16,7 @@ type Router struct {
 	middlewares []middleware
 }
 
-func NewRouter() *Router {
+func New() *Router {
 	return &Router{
 		mux: http.NewServeMux(),
 	}
