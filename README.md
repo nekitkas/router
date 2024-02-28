@@ -9,7 +9,7 @@ Go version 1.22 is required
 Create a new router instance with NewRouter().
 
 ```
-router := NewRouter()
+router := New()
 ```
 
 Use middleware functions with the Use() method to apply them to all routes, or with UseWithPrefix() to apply them only to paths containing a specified prefix.
